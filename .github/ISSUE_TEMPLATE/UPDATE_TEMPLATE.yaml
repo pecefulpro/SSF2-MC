@@ -1,4 +1,5 @@
 name: Bug Report2
+about: bug
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
