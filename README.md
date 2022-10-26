@@ -1,8 +1,11 @@
-## SSF2 Mod Center 
-Game version 1.3.1.2
-|Mod name | Author | Homepage | Version and link | Description |
-|---|---|---|---|---|
-|Blank Mod kit|pecefulpro|https://github.com/pecefulpro/BlankModKit | N/A | Defualt Mod pack to start out on| 
+# SSF2 Mod Center 
 
-## How to use 
-Install the SSF2 ModLoader Client 
+SSF2 Mod Center is a place where mod creators can update and share their mods easily with the SSF2 community. 
+
+## How to get started 
+ 
+1) Install a SSF2 Client that has a ModLoader built into it.
+
+## How to add your own mods
+
+1) Go to the [Black mod kit repo](https://github.com/pecefulpro/BlankModKit) and follow the instuctions  it
