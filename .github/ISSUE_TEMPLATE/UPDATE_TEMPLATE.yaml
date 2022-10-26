@@ -1,6 +1,6 @@
-name: Mod Add
+name: Add a mod 
 description: Requests to add a mod 
-title: "[Request Add]: "
+title: "[Request Add]: {mod name} "
 placeholder: "ex. [Request Add]: Remastered Battlefield"
 labels: ["Add"]
 assignees:
