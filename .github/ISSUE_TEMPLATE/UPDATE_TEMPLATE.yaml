@@ -64,15 +64,16 @@ body:
 
 name: Update a mod 
 description: Requests to add a mod 
-title: "[Update]: {mod name}"
-labels: ["Update"]
+title: "[Request Add]: "
+placeholder: "ex. [Request Add]: Remastered Battlefield"
+labels: ["Add"]
 assignees:
   - octocat
 body:
   - type: markdown
-    attributes:
-        value: |
-         Thanks for taking the time to fill out this mod request!
+    # attributes:
+    #   value: |
+    #     Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -100,12 +101,4 @@ body:
         - Bug Fix
         - Version
         - Other
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: If you selected other tell us why?
-      placeholder: Tell us what you see!
-      value: "A problem happened."
-    validations:
-      required: false
+  
