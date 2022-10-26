@@ -1,5 +1,5 @@
 name: Issue Reply
-uses: JasonEtco/create-an-issue@v2.8.0
+
 
 on:
   issues:
