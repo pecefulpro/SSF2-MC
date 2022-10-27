@@ -38,10 +38,10 @@ def update_repo(repo,issue):
   
 
 def add_Repo(g,repo,issue):
-    repolink = re.search("(?P<url>https?://[^\s]+)", issue.body).group("url")
-
-    repostring = repolink.split("/")
+    
     try:
+        repolink = re.search("(?P<url>https?://[^\s]+)", issue.body).group("url")
+        repostring = repolink.split("/")
         usersRepo = g.get_repo(repostring[3] + "/" + repostring[4])
     except GithubException:
         send_error("This Repo Does not Exist",issue)
@@ -132,7 +132,7 @@ def file_checks(repo:Repository,issue):
 def send_error(error:str,issue):
     print("error")
     issue.create_comment(error)
-    sys.exit(0)
+    sys.exit(1)
 
 
 
