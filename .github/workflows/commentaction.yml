@@ -25,9 +25,9 @@ jobs:
           
       - name: execute py script # run main.py
         env:
-          PR_NUMBER: ${{ github.event.number }}
+          PR_NUMBER: ${{ github.event.issue.number }}
           SOME_SECRET: ${{ secrets.GITHUB_TOKEN }}
-        run: python main.py 
+        run: python main.py ${{ github.event.issue.number }}
           
       # - name: commit files
       #   run: |
