@@ -1,5 +1,4 @@
 from email.mime import base
-import logging
 import logging.handlers
 import os
 import sys
@@ -15,10 +14,10 @@ from json import JSONDecodeError
 from github import GithubException
 
 def main():
-    g = Github(config.github_secreat)
+    g = Github(os.environ["SOME_SECRET"]) //config.github_secreat
     repo = g.get_repo("pecefulpro/SSF2-MC")
     
-   
+    return
     issue = repo.get_issue(number=6)
 
     if len(issue.labels) > 1:
@@ -101,15 +100,15 @@ def add_Repo(g,repo,issue):
         )
         #writer.write_table()
 
-        #repo.update_file("stages/ml.beta.json","stage json updated", json.dumps(minified),contents.sha)
+        repo.update_file("stages/ml.beta.json","stage json updated", json.dumps(minified,sort_keys=True,indent=4, separators=(',', ': ')),contents.sha)
 
         mdcontents = repo.get_contents("stages/README.md")
-        #repo.update_file("stages/README.md","stage read me updated", writer.dumps(),mdcontents.sha)
+        repo.update_file("stages/README.md","stage read me updated", writer.dumps(),mdcontents.sha)
 
 
         master_ref = repo.get_git_ref('heads/main')
         base_tree = repo.get_git_tree(master_ref.object.sha)
-        print(base_tree)
+        
 
     #print(minified)
 
@@ -141,4 +140,5 @@ def send_error(error:str,issue):
 
 
 if __name__ == "__main__":
+    print(sys.argv)
     main()
