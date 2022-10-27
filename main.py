@@ -45,6 +45,8 @@ def add_Repo(g,repo,issue):
         usersRepo = g.get_repo(repostring[3] + "/" + repostring[4])
     except GithubException:
         send_error("This Repo Does not Exist",issue)
+    except Exception as ex:
+        send_error("We could not find your repo",issue)
     
     master_ref = repo.get_git_ref('heads/main')
     base_tree = repo.get_git_tree(master_ref.object.sha)
