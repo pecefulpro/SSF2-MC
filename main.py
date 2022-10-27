@@ -14,11 +14,10 @@ from json import JSONDecodeError
 from github import GithubException
 
 def main():
-    g = Github(os.environ["SOME_SECRET"]) //config.github_secreat
+    g = Github(os.environ["SOME_SECRET"]) #config.github_secreat
     repo = g.get_repo("pecefulpro/SSF2-MC")
-    
-    return
-    issue = repo.get_issue(number=6)
+    print(os.environ["PR_NUMBER"])
+    issue = repo.get_issue(os.environ["PR_NUMBER"])
 
     if len(issue.labels) > 1:
         send_error("This issue has to many labels on it",issue)
@@ -140,5 +139,5 @@ def send_error(error:str,issue):
 
 
 if __name__ == "__main__":
-    print(sys.argv)
+   
     main()
