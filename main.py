@@ -4,7 +4,7 @@ import os
 import sys
 import re
 import json 
-import config
+#import config
 from github import Github 
 from github import Repository
 from pytablewriter import MarkdownTableWriter
