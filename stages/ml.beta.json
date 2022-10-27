@@ -1,6 +1,17 @@
 {
     "name": "SSF2ModList",
     "ssf2-mods": [
+        {
+            "author": "Doppy",
+            "description": "A sonic mod over Final Destination",
+            "display-name": "Sunset Hills",
+            "folder-name": "sunset_hill_FD.ssf",
+            "id": 557022404,
+            "repository": "https://github.com/pecefulpro/Sunset-Hill-FD",
+            "tree": "e4001eb5b82da125d99aae27dfb6596863b43af3",
+            "type": "Stage",
+            "version": "1.3.1.2"
+        }
     ],
     "version": "1.1.3.2"
 }
