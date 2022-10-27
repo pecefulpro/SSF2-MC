@@ -16,7 +16,7 @@ from github import GithubException
 def main():
     g = Github(os.environ["SOME_SECRET"]) #config.github_secreat
     repo = g.get_repo("pecefulpro/SSF2-MC")
-    issue = repo.get_issue(sys.argv)
+    issue = repo.get_issue(sys.argv[1])
 
     if len(issue.labels) > 1:
         send_error("This issue has to many labels on it",issue)
