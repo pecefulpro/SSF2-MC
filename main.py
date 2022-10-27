@@ -109,7 +109,9 @@ def add_Repo(g,repo,issue):
         master_ref = repo.get_git_ref('heads/main')
         base_tree = repo.get_git_tree(master_ref.object.sha)
         
-
+            
+        issue.create_comment("Thank you @" + issue.user.name +  " your has been request approved and added.")
+        issue.edit(labels=["Approved"])
     #print(minified)
 
 
