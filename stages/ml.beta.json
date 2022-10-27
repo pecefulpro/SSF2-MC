@@ -33,6 +33,17 @@
             "tree": "f3c5dc6b981140029ff8d680f6056ee1aca53eb6",
             "type": "Stage",
             "version": "1.3.1.2"
+        },
+        {
+            "author": "Doppy",
+            "description": "A sonic mod over Final Destination",
+            "display-name": "Sunset Hills",
+            "folder-name": "sunset_hill_FD.ssf",
+            "id": 557022404,
+            "repository": "https://github.com/pecefulpro/Sunset-Hill-FD",
+            "tree": "05cf5344ff06a6ec37a593e420db984277843abc",
+            "type": "Stage",
+            "version": "1.3.1.2"
         }
     ],
     "version": "1.1.3.2"
