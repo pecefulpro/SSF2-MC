@@ -22,6 +22,50 @@
             "tree": "f591c41a1d91e9465ca29b0d2b4a4ae5f1346725",
             "type": "Stage",
             "version": "1.3.1.0"
+        },
+        {
+            "author": "McleodGaming",
+            "description": "lorem ipsum or something like that",
+            "display-name": "Me gustan las milanesas",
+            "folder-name": "galaxytours_test.ssf",
+            "id": 558607611,
+            "repository": "https://github.com/Lex-ssf2/Galaxy-Tours-Test",
+            "tree": "df31060eacdf8775580c03b63a1776de9a593489",
+            "type": "Stage",
+            "version": "1.3.1.0"
+        },
+        {
+            "author": "Doppy",
+            "description": "A sonic mod over Final Destination",
+            "display-name": "Sunset Hills",
+            "folder-name": "sunset_hill_FD.ssf",
+            "id": 557022404,
+            "repository": "https://github.com/pecefulpro/Sunset-Hill-FD",
+            "tree": "26447bcd59b547b227f6be25735ee4ea8a2ddded",
+            "type": "Stage",
+            "version": "1.3.1.2"
+        },
+        {
+            "author": "McleodGaming",
+            "description": "lorem ipsum or something like that",
+            "display-name": "Me gustan las milanesas",
+            "folder-name": "galaxytours_test.ssf",
+            "id": 558607611,
+            "repository": "https://github.com/Lex-ssf2/Galaxy-Tours-Test",
+            "tree": "55484f0bba9d38b49b9ca31de2d4afbe9a9153dc",
+            "type": "Stage",
+            "version": "1.3.1.0"
+        },
+        {
+            "author": "McleodGaming",
+            "description": "lorem ipsum or something like that",
+            "display-name": "Me gustan las milanesas",
+            "folder-name": "galaxytours_test.ssf",
+            "id": 558607611,
+            "repository": "https://github.com/Lex-ssf2/Galaxy-Tours-Test",
+            "tree": "fb2ef48e2fa9ea027718d84e054c35e322551a80",
+            "type": "Stage",
+            "version": "1.3.1.0"
         }
     ],
     "version": "1.1.3.2"
