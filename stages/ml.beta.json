@@ -44,6 +44,17 @@
             "tree": "26447bcd59b547b227f6be25735ee4ea8a2ddded",
             "type": "Stage",
             "version": "1.3.1.2"
+        },
+        {
+            "author": "McleodGaming",
+            "description": "lorem ipsum or something like that",
+            "display-name": "Me gustan las milanesas",
+            "folder-name": "galaxytours_test.ssf",
+            "id": 558607611,
+            "repository": "https://github.com/Lex-ssf2/Galaxy-Tours-Test",
+            "tree": "55484f0bba9d38b49b9ca31de2d4afbe9a9153dc",
+            "type": "Stage",
+            "version": "1.3.1.0"
         }
     ],
     "version": "1.1.3.2"
