@@ -66,7 +66,7 @@ def add_Repo(g,repo,issue,vefied = False):
         for r in repos:
             if r.id == issue.user.id:
                 break
-        send_error("You are not the creator/collaborator of this repo",issue,None,True)
+        send_error("You are not the creator/collaborator of this repo",issue,None)
 
     data = file_checks(usersRepo,issue)
 
